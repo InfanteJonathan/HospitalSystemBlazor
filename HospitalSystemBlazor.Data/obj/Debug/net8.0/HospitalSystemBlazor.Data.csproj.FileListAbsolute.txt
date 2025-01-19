@@ -1,0 +1,17 @@
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\bin\Debug\net8.0\HospitalSystemBlazor.Data.deps.json
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\bin\Debug\net8.0\HospitalSystemBlazor.Data.runtimeconfig.json
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\bin\Debug\net8.0\HospitalSystemBlazor.Data.dll
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\bin\Debug\net8.0\HospitalSystemBlazor.Data.pdb
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\bin\Debug\net8.0\HospitalSystemBlazor.Entities.dll
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\bin\Debug\net8.0\HospitalSystemBlazor.Entities.pdb
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\HospitalSystemBlazor.Data.csproj.AssemblyReference.cache
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\HospitalSystemBlazor.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\HospitalSystemBlazor.Data.AssemblyInfoInputs.cache
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\HospitalSystemBlazor.Data.AssemblyInfo.cs
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\HospitalSystemBlazor.Data.csproj.CoreCompileInputs.cache
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\Hospital.8F0CB1C8.Up2Date
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\HospitalSystemBlazor.Data.dll
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\refint\HospitalSystemBlazor.Data.dll
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\HospitalSystemBlazor.Data.pdb
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\HospitalSystemBlazor.Data.genruntimeconfig.cache
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.Data\obj\Debug\net8.0\ref\HospitalSystemBlazor.Data.dll

@@ -1,0 +1,62 @@
+﻿@page "/listaEspec"
+@inject EspecialidadService _service
+@inject NavigationManager _navigate
+
+
+<PageTitle>ESPECIALIDADES</PageTitle>
+<br />
+<h3>ESPECIALIDADES</h3>
+<br />
+
+@if(espec == null)
+{
+    <p><em>Loading...</em></p>
+}
+else{
+    <div>
+        <a @onclick='() => _navigate.NavigateTo("/crear")' class="btn btn-success">Nueva Especialidad</a>
+    </div>
+    <br />
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>IdEspecialidad</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Acciones</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var item in espec)
+            {
+                <tr>
+                    <td>@item.IdEspecialidad</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.Descripcion</td>
+                    <td>@item.Precio</td>
+                    <td>
+                        <a href="/detalle/@item.IdEspecialidad" class="btn btn-primary">Editar</a>
+                    </td>
+                </tr>                
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    List<EspecialidadDTO> espec = new();
+    string mensage = string.Empty;
+    bool exito = false;
+
+    async Task ListaEspec()
+    {
+        espec = await _service.Especialidades();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ListaEspec();
+    }
+}

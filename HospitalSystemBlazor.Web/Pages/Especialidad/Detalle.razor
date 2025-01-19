@@ -1,0 +1,86 @@
+﻿@page "/detalle/{id:int}"
+@inject EspecialidadService _service
+@inject NavigationManager _navigate
+
+<PageTitle>Detalles</PageTitle>
+
+<EditForm Model="@Especialidad" OnValidSubmit="@Registrar">
+    <div>
+        <label>Nombre</label>
+        <input type="text" @bind="Especialidad.Nombre" />
+    </div>
+    <div>
+        <label>Descripcion</label>
+        <input type="text" @bind="Especialidad.Descripcion" />
+    </div>
+    <div>
+        <label>Precio</label>
+        <input type="number" @bind="Especialidad.Precio" />
+    </div>
+    <div>
+        <label>Activo: <input type="checkbox" @bind="Especialidad.Activo"/></label>
+    </div>
+    <button type="submit" class="btn btn-success">Registrar</button>
+    <button @onclick="Volver" class="btn btn-secondary">Atrás</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(mensaje))
+{
+    <div class="alert @(exito ? "alert-success" : "alert-danger")">
+        @mensaje
+    </div>
+}
+
+<h3>Detalle</h3>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    EspecialidadDTO Especialidad = new();
+    string mensaje = string.Empty;
+    bool exito = false;
+
+    async Task BuscarEspec()
+    {
+        try
+        {
+            Especialidad = await _service.Detalle(id);
+        }
+        catch (Exception)
+        {
+            mensaje = "Ocurrió un error al cargar el detalle de la especialidad.";
+            exito = false;
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await BuscarEspec();
+    }
+
+    async Task Registrar()
+    {
+        try
+        {
+            var response = await _service.Editar(id, Especialidad);
+            mensaje = response.Mensaje;
+            exito = response.Exito;
+
+            if (exito)
+            {
+                _navigate.NavigateTo("/listaEspec");
+            }
+        }
+        catch (Exception ex)
+        {
+            mensaje = "Ocurrió un error al registrar la especialidad.";
+            exito = false;
+        }
+    }
+
+    void Volver()
+    {
+        _navigate.NavigateTo("/listaEspec");
+    }
+}

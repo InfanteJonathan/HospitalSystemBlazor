@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "HospitalSystemBlazor.API\\HospitalSystemBlazor.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "HospitalSystemBlazor.Web\\HospitalSystemBlazor.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
