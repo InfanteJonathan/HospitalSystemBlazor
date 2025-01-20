@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\HospitalSystemBlazor.API.props" />
-</Project>
