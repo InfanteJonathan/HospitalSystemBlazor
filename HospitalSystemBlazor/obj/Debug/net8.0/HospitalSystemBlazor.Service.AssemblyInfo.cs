@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HospitalSystemBlazor.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8335630aaca10f689b5cf6e1f39b8077f9b82aa2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17f7bc21465915791c0a8d71429c89fdee1a9af8")]
 [assembly: System.Reflection.AssemblyProductAttribute("HospitalSystemBlazor.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HospitalSystemBlazor.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
