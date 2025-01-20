@@ -45,7 +45,8 @@ namespace HospitalSystemBlazor.Service
                     IdEspecialidad = e.IdEspecialidad,
                     Nombre = e.Nombre,
                     Precio = e.Precio,
-                    Descripcion = e.Descripcion
+                    Descripcion = e.Descripcion,
+                    Activo = e.Activo
 
                 })
                 .FirstOrDefaultAsync(x => x.IdEspecialidad == id);

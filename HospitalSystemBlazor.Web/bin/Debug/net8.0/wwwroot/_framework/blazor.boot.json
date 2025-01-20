@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "HospitalSystemBlazor.Web",
   "resources": {
-    "hash": "sha256-iik6qD6wDRUnAQm72SQJpc9+t9ESJfXjqgCTzz3jrdw=",
+    "hash": "sha256-jk7ZMeouoPOJVT1+5SXEJCY+AAfbbUMXdYTAIuxbnm8=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -238,16 +238,16 @@
       "mscorlib.wasm": "sha256-04e4k5XU8HWGB/dq/2+j84xzzGPflTs0IYWI0OxogVc=",
       "netstandard.wasm": "sha256-gnGZURPnoSmjXuYNCOJi5tt8qn2LRImWgue1Ru3/TDQ=",
       "System.Private.CoreLib.wasm": "sha256-6w3jYr0arcp8jnt4aeqh+AmqrLA6q7jl9rQYAwLzE0M=",
-      "HospitalSystemBlazor.Data.wasm": "sha256-sZL/ujYB2OigSa1X8LU9COOZr5AMXlPc3tpnn1OgE1g=",
-      "HospitalSystemBlazor.Entities.wasm": "sha256-8gyB/O4+i3Ht5egbbyYIUkS/8I2y/0sUsqfdAw3Vtd8=",
-      "HospitalSystemBlazor.Service.wasm": "sha256-jK/ok2WsAnjfAUrxBXvyO/Q5WelQyo0kgiQDqxQedO0=",
-      "HospitalSystemBlazor.Web.wasm": "sha256-y4aCG0RFVknoNEhcRmM7mqNK4lOA5FRL3NC2/Yl4exg="
+      "HospitalSystemBlazor.Data.wasm": "sha256-KRosOsbNNcIXvM85wHPele6HJYNf788y+33SZOvoDaQ=",
+      "HospitalSystemBlazor.Entities.wasm": "sha256-h0NPhQUIbd2dqZr4uZtHKsWyotk8MDugII7MoI+dooE=",
+      "HospitalSystemBlazor.Service.wasm": "sha256-3dL70IPoJSTYvSCc+h6Tw51gXnDWbd2Er58/sqKDC08=",
+      "HospitalSystemBlazor.Web.wasm": "sha256-jNCPjVVKOIGLjteNHMimeE2YTCWrLh5AlFqdMemFRSc="
     },
     "pdb": {
-      "HospitalSystemBlazor.Data.pdb": "sha256-7JzH7j2S25qOZtUMZ0O8n6E4csoHq1m4Pm59tuUND70=",
-      "HospitalSystemBlazor.Service.pdb": "sha256-b1DIwqDjYs9MyofmfCdd+g5JFqEXeoXYVHG5bjOesWQ=",
-      "HospitalSystemBlazor.Entities.pdb": "sha256-9pYV7nJQaKh0DGj77Z4Gx5ixxz2b1dP1J1B/ZDO+qkw=",
-      "HospitalSystemBlazor.Web.pdb": "sha256-gDXm0E2ExanuKrKVfMJZVjwWGLfQ2GlioVwwA+kUPJ0="
+      "HospitalSystemBlazor.Data.pdb": "sha256-NmCfEd9iBGREwvqWlH42Hm4kVJZscZOdd0V3XX0Xr70=",
+      "HospitalSystemBlazor.Service.pdb": "sha256-tejH7LeFUhffUIz4y2X4UvWGB2L4qBTL6eyMjGzUNPU=",
+      "HospitalSystemBlazor.Entities.pdb": "sha256-LUmDyliqjziI1/7LmJx/s7gxg+imLxvmEa3ZfhAn868=",
+      "HospitalSystemBlazor.Web.pdb": "sha256-lJO1wtlq601VT6TKIVjL7ppo9IQC1bDgJTsnWZjNy68="
     }
   },
   "cacheBootResources": true,

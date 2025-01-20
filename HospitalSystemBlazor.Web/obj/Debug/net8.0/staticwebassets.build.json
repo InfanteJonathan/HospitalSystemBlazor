@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NQzERkRkvVA/1hcp3ZiuElxsTvPMGQczVRmeethi7QU=",
+  "Hash": "gwOM7ls8W4lX6HogYK7SRKFlwfc/6cLdNh2ljX2YO3c=",
   "Source": "HospitalSystemBlazor.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "l7a7piigvw",
-      "Integrity": "j2+ojsJ4FE7VEmytIBgyjC3h2AelyN+C2mpw/UduxME=",
+      "Fingerprint": "792tir88tu",
+      "Integrity": "VTEf7bKT4TbOpCruSOmR4ojvWcHr1akNS3WzEdndreQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -262,8 +262,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "48z3advshe",
-      "Integrity": "7JzH7j2S25qOZtUMZ0O8n6E4csoHq1m4Pm59tuUND70=",
+      "Fingerprint": "u644ysu5wo",
+      "Integrity": "NmCfEd9iBGREwvqWlH42Hm4kVJZscZOdd0V3XX0Xr70=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Data\\bin\\Debug\\net8.0\\HospitalSystemBlazor.Data.pdb"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "b51e089v8e",
-      "Integrity": "sZL/ujYB2OigSa1X8LU9COOZr5AMXlPc3tpnn1OgE1g=",
+      "Fingerprint": "trsy4sq9bk",
+      "Integrity": "KRosOsbNNcIXvM85wHPele6HJYNf788y+33SZOvoDaQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\webcil\\HospitalSystemBlazor.Data.wasm"
@@ -304,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ajojsyz8r9",
-      "Integrity": "9pYV7nJQaKh0DGj77Z4Gx5ixxz2b1dP1J1B/ZDO+qkw=",
+      "Fingerprint": "vxpu8smet0",
+      "Integrity": "LUmDyliqjziI1/7LmJx/s7gxg+imLxvmEa3ZfhAn868=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Entities\\bin\\Debug\\net8.0\\HospitalSystemBlazor.Entities.pdb"
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "egc0kos48m",
-      "Integrity": "8gyB/O4+i3Ht5egbbyYIUkS/8I2y/0sUsqfdAw3Vtd8=",
+      "Fingerprint": "t7ihqjgbel",
+      "Integrity": "h0NPhQUIbd2dqZr4uZtHKsWyotk8MDugII7MoI+dooE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\webcil\\HospitalSystemBlazor.Entities.wasm"
@@ -346,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "fw2j3euwdw",
-      "Integrity": "b1DIwqDjYs9MyofmfCdd+g5JFqEXeoXYVHG5bjOesWQ=",
+      "Fingerprint": "3uhcaq4sj7",
+      "Integrity": "tejH7LeFUhffUIz4y2X4UvWGB2L4qBTL6eyMjGzUNPU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor\\bin\\Debug\\net8.0\\HospitalSystemBlazor.Service.pdb"
@@ -367,8 +367,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "c2yw8hzzkm",
-      "Integrity": "jK/ok2WsAnjfAUrxBXvyO/Q5WelQyo0kgiQDqxQedO0=",
+      "Fingerprint": "jsulalmms5",
+      "Integrity": "3dL70IPoJSTYvSCc+h6Tw51gXnDWbd2Er58/sqKDC08=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\webcil\\HospitalSystemBlazor.Service.wasm"
@@ -388,8 +388,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ch9mlj1692",
-      "Integrity": "gDXm0E2ExanuKrKVfMJZVjwWGLfQ2GlioVwwA+kUPJ0=",
+      "Fingerprint": "4cuklys40t",
+      "Integrity": "lJO1wtlq601VT6TKIVjL7ppo9IQC1bDgJTsnWZjNy68=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\HospitalSystemBlazor.Web.pdb"
@@ -409,8 +409,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "5wze8tv9iz",
-      "Integrity": "y4aCG0RFVknoNEhcRmM7mqNK4lOA5FRL3NC2/Yl4exg=",
+      "Fingerprint": "kgaa0fsatu",
+      "Integrity": "jNCPjVVKOIGLjteNHMimeE2YTCWrLh5AlFqdMemFRSc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\webcil\\HospitalSystemBlazor.Web.wasm"
@@ -6338,7 +6338,7 @@
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.wasm"
     },
     {
-      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\910tg0or6z-l7a7piigvw.gz",
+      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\910tg0or6z-792tir88tu.gz",
       "SourceId": "HospitalSystemBlazor.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -6352,8 +6352,8 @@
       "RelatedAsset": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "x6ut2r8zta",
-      "Integrity": "GQwY3kACkEl/Y4hG8rjaTtBKGSVmx9Z6eMs8THKnYcU=",
+      "Fingerprint": "3b6y6w1191",
+      "Integrity": "b+qwYGZIJRoZMTEGdaCJ7+0YJTEQxfO2EqxE8KrqlaA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6506,7 +6506,7 @@
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Web.HttpUtility.wasm"
     },
     {
-      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\a2jyy9l7c7-5wze8tv9iz.gz",
+      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\a2jyy9l7c7-kgaa0fsatu.gz",
       "SourceId": "HospitalSystemBlazor.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -6520,8 +6520,8 @@
       "RelatedAsset": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Web.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "czymzx5e2g",
-      "Integrity": "mFE1Ok+ga3RkQJZ0Xg+rLzmO2PWlTz5OKYGhm3Oh8a0=",
+      "Fingerprint": "glh48wir5w",
+      "Integrity": "FJp5+c7BTuok4evPlhIVorwbxakQUlkALe6xpmyhaYQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Web.wasm"
@@ -7430,7 +7430,7 @@
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Sockets.wasm"
     },
     {
-      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\ip1ktt76h1-c2yw8hzzkm.gz",
+      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\ip1ktt76h1-jsulalmms5.gz",
       "SourceId": "HospitalSystemBlazor.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -7444,8 +7444,8 @@
       "RelatedAsset": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Service.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "auhk63dkf9",
-      "Integrity": "rubz1Ud48YTE6kd3jmduYHTRy+H/MDcBk+BcrlY7ltQ=",
+      "Fingerprint": "tm5kezlb0h",
+      "Integrity": "e1wpi90F1mjdA5l9YkJZz3bv7hw7JNagbwi2g1U0w+4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Service.wasm"
@@ -7976,7 +7976,7 @@
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.wasm"
     },
     {
-      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\lnwt07aeti-48z3advshe.gz",
+      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\lnwt07aeti-u644ysu5wo.gz",
       "SourceId": "HospitalSystemBlazor.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -7990,8 +7990,8 @@
       "RelatedAsset": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Data.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vudwix98ab",
-      "Integrity": "JxRDa+3J4/1Wbt74PdTe9yFEBpbg4cS0RWn/oeN6WHQ=",
+      "Fingerprint": "uwxfdbhu03",
+      "Integrity": "biK1P0an5SpwxUrEJKNwxysfpLrX1/VG3IiA1TeKplU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Data.pdb"
@@ -8606,7 +8606,7 @@
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.wasm"
     },
     {
-      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\qdgyfvbo2h-ch9mlj1692.gz",
+      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\qdgyfvbo2h-4cuklys40t.gz",
       "SourceId": "HospitalSystemBlazor.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -8620,8 +8620,8 @@
       "RelatedAsset": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Web.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ok4c5dqqt8",
-      "Integrity": "2MQ1/upMM57UaNBPLWm1+B9e/yRkgImVu1Vin9TBeFw=",
+      "Fingerprint": "stbd56z5c2",
+      "Integrity": "4BWsF15tSgLH89oPEV5eNndEtCIPF4VUqW0ADX9UuRE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Web.pdb"
@@ -9110,7 +9110,7 @@
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.wasm"
     },
     {
-      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\tuoxoolrt2-egc0kos48m.gz",
+      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\tuoxoolrt2-t7ihqjgbel.gz",
       "SourceId": "HospitalSystemBlazor.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -9124,8 +9124,8 @@
       "RelatedAsset": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Entities.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1qru9cdv0h",
-      "Integrity": "2dANZVazSioX3rQACjq2v28nSAAD5mRHA0N3y24yoK8=",
+      "Fingerprint": "6egjttcwr3",
+      "Integrity": "QpWy6uLiIYzkAqF/iMvOp/DiFgfuF038pjNgeBqtsfo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Entities.wasm"
@@ -9320,7 +9320,7 @@
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.js"
     },
     {
-      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vabckogvjm-b51e089v8e.gz",
+      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vabckogvjm-trsy4sq9bk.gz",
       "SourceId": "HospitalSystemBlazor.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -9334,8 +9334,8 @@
       "RelatedAsset": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Data.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "f7xtnpjmlz",
-      "Integrity": "W3il0hdEu4Q2/1fPDdhevkkSm/fM+KhPf8Az4e71+tc=",
+      "Fingerprint": "loccsx70kl",
+      "Integrity": "NfvGj9JH6uxTN30/ap7X29k4kX3Dz5/YrRp9q8UOUwA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Data.wasm"
@@ -9404,7 +9404,7 @@
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.HttpListener.wasm"
     },
     {
-      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vjyex9a6bi-ajojsyz8r9.gz",
+      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vjyex9a6bi-vxpu8smet0.gz",
       "SourceId": "HospitalSystemBlazor.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -9418,8 +9418,8 @@
       "RelatedAsset": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Entities.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "z3gxb5dg2l",
-      "Integrity": "z74EZMLl2QYEQYreP72WIa1/vU3OZurqtUQqkB9qAeA=",
+      "Fingerprint": "8o5vkpc2m6",
+      "Integrity": "iPkPTVBkNxCx8RoFwGiBuR3JyhyswyixANCVeCNfMM8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Entities.pdb"
@@ -9824,7 +9824,7 @@
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Xml.Linq.wasm"
     },
     {
-      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\y56oxia2m1-fw2j3euwdw.gz",
+      "Identity": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\y56oxia2m1-3uhcaq4sj7.gz",
       "SourceId": "HospitalSystemBlazor.Web",
       "SourceType": "Computed",
       "ContentRoot": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\",
@@ -9838,8 +9838,8 @@
       "RelatedAsset": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Service.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "z4ckapvm8g",
-      "Integrity": "jceCBN1hZNvoyVtl9V5JGbbc70lJSgVEUF3cYlkedBk=",
+      "Fingerprint": "52wuq30cpg",
+      "Integrity": "M7wL8MWOJ4bypua1zYRKaBcYfp0LFXEWZT/hVuC9uZI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Service.pdb"
@@ -10580,11 +10580,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j2+ojsJ4FE7VEmytIBgyjC3h2AelyN+C2mpw/UduxME=\""
+          "Value": "\"VTEf7bKT4TbOpCruSOmR4ojvWcHr1akNS3WzEdndreQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 21:01:54 GMT"
+          "Value": "Mon, 20 Jan 2025 19:15:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10594,18 +10594,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j2+ojsJ4FE7VEmytIBgyjC3h2AelyN+C2mpw/UduxME="
+          "Value": "sha256-VTEf7bKT4TbOpCruSOmR4ojvWcHr1akNS3WzEdndreQ="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\910tg0or6z-l7a7piigvw.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\910tg0or6z-792tir88tu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000096534415"
+          "Quality": "0.000096497153"
         }
       ],
       "ResponseHeaders": [
@@ -10615,15 +10615,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10358"
+          "Value": "10362"
         },
         {
           "Name": "ETag",
-          "Value": "\"GQwY3kACkEl/Y4hG8rjaTtBKGSVmx9Z6eMs8THKnYcU=\""
+          "Value": "\"b+qwYGZIJRoZMTEGdaCJ7+0YJTEQxfO2EqxE8KrqlaA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 20:41:32 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10643,19 +10643,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j2+ojsJ4FE7VEmytIBgyjC3h2AelyN+C2mpw/UduxME=\""
+          "Value": "W/\"VTEf7bKT4TbOpCruSOmR4ojvWcHr1akNS3WzEdndreQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j2+ojsJ4FE7VEmytIBgyjC3h2AelyN+C2mpw/UduxME="
+          "Value": "sha256-VTEf7bKT4TbOpCruSOmR4ojvWcHr1akNS3WzEdndreQ="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\910tg0or6z-l7a7piigvw.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\910tg0or6z-792tir88tu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10664,7 +10664,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "10358"
+          "Value": "10362"
         },
         {
           "Name": "Content-Type",
@@ -10672,11 +10672,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GQwY3kACkEl/Y4hG8rjaTtBKGSVmx9Z6eMs8THKnYcU=\""
+          "Value": "\"b+qwYGZIJRoZMTEGdaCJ7+0YJTEQxfO2EqxE8KrqlaA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 20:41:32 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10694,7 +10694,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GQwY3kACkEl/Y4hG8rjaTtBKGSVmx9Z6eMs8THKnYcU="
+          "Value": "sha256-b+qwYGZIJRoZMTEGdaCJ7+0YJTEQxfO2EqxE8KrqlaA="
         }
       ]
     },
@@ -11805,7 +11805,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17260"
+          "Value": "17460"
         },
         {
           "Name": "Content-Type",
@@ -11813,11 +11813,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7JzH7j2S25qOZtUMZ0O8n6E4csoHq1m4Pm59tuUND70=\""
+          "Value": "\"NmCfEd9iBGREwvqWlH42Hm4kVJZscZOdd0V3XX0Xr70=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:57 GMT"
+          "Value": "Mon, 20 Jan 2025 19:15:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11827,18 +11827,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7JzH7j2S25qOZtUMZ0O8n6E4csoHq1m4Pm59tuUND70="
+          "Value": "sha256-NmCfEd9iBGREwvqWlH42Hm4kVJZscZOdd0V3XX0Xr70="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Data.pdb",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\lnwt07aeti-48z3advshe.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\lnwt07aeti-u644ysu5wo.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000112688754"
+          "Quality": "0.000105218855"
         }
       ],
       "ResponseHeaders": [
@@ -11848,15 +11848,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8873"
+          "Value": "9503"
         },
         {
           "Name": "ETag",
-          "Value": "\"JxRDa+3J4/1Wbt74PdTe9yFEBpbg4cS0RWn/oeN6WHQ=\""
+          "Value": "\"biK1P0an5SpwxUrEJKNwxysfpLrX1/VG3IiA1TeKplU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:57 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11876,19 +11876,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7JzH7j2S25qOZtUMZ0O8n6E4csoHq1m4Pm59tuUND70=\""
+          "Value": "W/\"NmCfEd9iBGREwvqWlH42Hm4kVJZscZOdd0V3XX0Xr70=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7JzH7j2S25qOZtUMZ0O8n6E4csoHq1m4Pm59tuUND70="
+          "Value": "sha256-NmCfEd9iBGREwvqWlH42Hm4kVJZscZOdd0V3XX0Xr70="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Data.pdb.gz",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\lnwt07aeti-48z3advshe.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\lnwt07aeti-u644ysu5wo.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11897,7 +11897,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8873"
+          "Value": "9503"
         },
         {
           "Name": "Content-Type",
@@ -11905,11 +11905,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JxRDa+3J4/1Wbt74PdTe9yFEBpbg4cS0RWn/oeN6WHQ=\""
+          "Value": "\"biK1P0an5SpwxUrEJKNwxysfpLrX1/VG3IiA1TeKplU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:57 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11927,7 +11927,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JxRDa+3J4/1Wbt74PdTe9yFEBpbg4cS0RWn/oeN6WHQ="
+          "Value": "sha256-biK1P0an5SpwxUrEJKNwxysfpLrX1/VG3IiA1TeKplU="
         }
       ]
     },
@@ -11942,7 +11942,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "49429"
+          "Value": "49941"
         },
         {
           "Name": "Content-Type",
@@ -11950,11 +11950,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sZL/ujYB2OigSa1X8LU9COOZr5AMXlPc3tpnn1OgE1g=\""
+          "Value": "\"KRosOsbNNcIXvM85wHPele6HJYNf788y+33SZOvoDaQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:59 GMT"
+          "Value": "Mon, 20 Jan 2025 19:15:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11964,18 +11964,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sZL/ujYB2OigSa1X8LU9COOZr5AMXlPc3tpnn1OgE1g="
+          "Value": "sha256-KRosOsbNNcIXvM85wHPele6HJYNf788y+33SZOvoDaQ="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Data.wasm",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vabckogvjm-b51e089v8e.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vabckogvjm-trsy4sq9bk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000073243976"
+          "Quality": "0.000067934783"
         }
       ],
       "ResponseHeaders": [
@@ -11985,15 +11985,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13652"
+          "Value": "14719"
         },
         {
           "Name": "ETag",
-          "Value": "\"W3il0hdEu4Q2/1fPDdhevkkSm/fM+KhPf8Az4e71+tc=\""
+          "Value": "\"NfvGj9JH6uxTN30/ap7X29k4kX3Dz5/YrRp9q8UOUwA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:59 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12013,19 +12013,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sZL/ujYB2OigSa1X8LU9COOZr5AMXlPc3tpnn1OgE1g=\""
+          "Value": "W/\"KRosOsbNNcIXvM85wHPele6HJYNf788y+33SZOvoDaQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sZL/ujYB2OigSa1X8LU9COOZr5AMXlPc3tpnn1OgE1g="
+          "Value": "sha256-KRosOsbNNcIXvM85wHPele6HJYNf788y+33SZOvoDaQ="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Data.wasm.gz",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vabckogvjm-b51e089v8e.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vabckogvjm-trsy4sq9bk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12034,7 +12034,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13652"
+          "Value": "14719"
         },
         {
           "Name": "Content-Type",
@@ -12042,11 +12042,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W3il0hdEu4Q2/1fPDdhevkkSm/fM+KhPf8Az4e71+tc=\""
+          "Value": "\"NfvGj9JH6uxTN30/ap7X29k4kX3Dz5/YrRp9q8UOUwA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:59 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12064,7 +12064,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W3il0hdEu4Q2/1fPDdhevkkSm/fM+KhPf8Az4e71+tc="
+          "Value": "sha256-NfvGj9JH6uxTN30/ap7X29k4kX3Dz5/YrRp9q8UOUwA="
         }
       ]
     },
@@ -12079,7 +12079,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14132"
+          "Value": "14344"
         },
         {
           "Name": "Content-Type",
@@ -12087,11 +12087,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9pYV7nJQaKh0DGj77Z4Gx5ixxz2b1dP1J1B/ZDO+qkw=\""
+          "Value": "\"LUmDyliqjziI1/7LmJx/s7gxg+imLxvmEa3ZfhAn868=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:57 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12101,18 +12101,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9pYV7nJQaKh0DGj77Z4Gx5ixxz2b1dP1J1B/ZDO+qkw="
+          "Value": "sha256-LUmDyliqjziI1/7LmJx/s7gxg+imLxvmEa3ZfhAn868="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Entities.pdb",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vjyex9a6bi-ajojsyz8r9.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vjyex9a6bi-vxpu8smet0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000131734949"
+          "Quality": "0.000129533679"
         }
       ],
       "ResponseHeaders": [
@@ -12122,15 +12122,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7590"
+          "Value": "7719"
         },
         {
           "Name": "ETag",
-          "Value": "\"z74EZMLl2QYEQYreP72WIa1/vU3OZurqtUQqkB9qAeA=\""
+          "Value": "\"iPkPTVBkNxCx8RoFwGiBuR3JyhyswyixANCVeCNfMM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:57 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12150,19 +12150,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9pYV7nJQaKh0DGj77Z4Gx5ixxz2b1dP1J1B/ZDO+qkw=\""
+          "Value": "W/\"LUmDyliqjziI1/7LmJx/s7gxg+imLxvmEa3ZfhAn868=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9pYV7nJQaKh0DGj77Z4Gx5ixxz2b1dP1J1B/ZDO+qkw="
+          "Value": "sha256-LUmDyliqjziI1/7LmJx/s7gxg+imLxvmEa3ZfhAn868="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Entities.pdb.gz",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vjyex9a6bi-ajojsyz8r9.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\vjyex9a6bi-vxpu8smet0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12171,7 +12171,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7590"
+          "Value": "7719"
         },
         {
           "Name": "Content-Type",
@@ -12179,11 +12179,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z74EZMLl2QYEQYreP72WIa1/vU3OZurqtUQqkB9qAeA=\""
+          "Value": "\"iPkPTVBkNxCx8RoFwGiBuR3JyhyswyixANCVeCNfMM8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:57 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12201,287 +12201,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z74EZMLl2QYEQYreP72WIa1/vU3OZurqtUQqkB9qAeA="
+          "Value": "sha256-iPkPTVBkNxCx8RoFwGiBuR3JyhyswyixANCVeCNfMM8="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Entities.wasm",
       "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Entities.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13589"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8gyB/O4+i3Ht5egbbyYIUkS/8I2y/0sUsqfdAw3Vtd8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8gyB/O4+i3Ht5egbbyYIUkS/8I2y/0sUsqfdAw3Vtd8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/HospitalSystemBlazor.Entities.wasm",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\tuoxoolrt2-egc0kos48m.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000185322461"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5395"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2dANZVazSioX3rQACjq2v28nSAAD5mRHA0N3y24yoK8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"8gyB/O4+i3Ht5egbbyYIUkS/8I2y/0sUsqfdAw3Vtd8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8gyB/O4+i3Ht5egbbyYIUkS/8I2y/0sUsqfdAw3Vtd8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/HospitalSystemBlazor.Entities.wasm.gz",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\tuoxoolrt2-egc0kos48m.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5395"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"2dANZVazSioX3rQACjq2v28nSAAD5mRHA0N3y24yoK8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-2dANZVazSioX3rQACjq2v28nSAAD5mRHA0N3y24yoK8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/HospitalSystemBlazor.Service.pdb",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Service.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14168"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b1DIwqDjYs9MyofmfCdd+g5JFqEXeoXYVHG5bjOesWQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-b1DIwqDjYs9MyofmfCdd+g5JFqEXeoXYVHG5bjOesWQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/HospitalSystemBlazor.Service.pdb",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\y56oxia2m1-fw2j3euwdw.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000124023316"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8062"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jceCBN1hZNvoyVtl9V5JGbbc70lJSgVEUF3cYlkedBk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"b1DIwqDjYs9MyofmfCdd+g5JFqEXeoXYVHG5bjOesWQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-b1DIwqDjYs9MyofmfCdd+g5JFqEXeoXYVHG5bjOesWQ="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/HospitalSystemBlazor.Service.pdb.gz",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\y56oxia2m1-fw2j3euwdw.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8062"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jceCBN1hZNvoyVtl9V5JGbbc70lJSgVEUF3cYlkedBk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jceCBN1hZNvoyVtl9V5JGbbc70lJSgVEUF3cYlkedBk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/HospitalSystemBlazor.Service.wasm",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Service.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12498,11 +12224,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jK/ok2WsAnjfAUrxBXvyO/Q5WelQyo0kgiQDqxQedO0=\""
+          "Value": "\"h0NPhQUIbd2dqZr4uZtHKsWyotk8MDugII7MoI+dooE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:59 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12512,18 +12238,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jK/ok2WsAnjfAUrxBXvyO/Q5WelQyo0kgiQDqxQedO0="
+          "Value": "sha256-h0NPhQUIbd2dqZr4uZtHKsWyotk8MDugII7MoI+dooE="
         }
       ]
     },
     {
-      "Route": "_framework/HospitalSystemBlazor.Service.wasm",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\ip1ktt76h1-c2yw8hzzkm.gz",
+      "Route": "_framework/HospitalSystemBlazor.Entities.wasm",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\tuoxoolrt2-t7ihqjgbel.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000168152009"
+          "Quality": "0.000181587071"
         }
       ],
       "ResponseHeaders": [
@@ -12533,15 +12259,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5946"
+          "Value": "5506"
         },
         {
           "Name": "ETag",
-          "Value": "\"rubz1Ud48YTE6kd3jmduYHTRy+H/MDcBk+BcrlY7ltQ=\""
+          "Value": "\"QpWy6uLiIYzkAqF/iMvOp/DiFgfuF038pjNgeBqtsfo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:59 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12561,19 +12287,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jK/ok2WsAnjfAUrxBXvyO/Q5WelQyo0kgiQDqxQedO0=\""
+          "Value": "W/\"h0NPhQUIbd2dqZr4uZtHKsWyotk8MDugII7MoI+dooE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jK/ok2WsAnjfAUrxBXvyO/Q5WelQyo0kgiQDqxQedO0="
+          "Value": "sha256-h0NPhQUIbd2dqZr4uZtHKsWyotk8MDugII7MoI+dooE="
         }
       ]
     },
     {
-      "Route": "_framework/HospitalSystemBlazor.Service.wasm.gz",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\ip1ktt76h1-c2yw8hzzkm.gz",
+      "Route": "_framework/HospitalSystemBlazor.Entities.wasm.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\tuoxoolrt2-t7ihqjgbel.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12582,7 +12308,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5946"
+          "Value": "5506"
         },
         {
           "Name": "Content-Type",
@@ -12590,11 +12316,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rubz1Ud48YTE6kd3jmduYHTRy+H/MDcBk+BcrlY7ltQ=\""
+          "Value": "\"QpWy6uLiIYzkAqF/iMvOp/DiFgfuF038pjNgeBqtsfo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 17:37:59 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12612,7 +12338,281 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rubz1Ud48YTE6kd3jmduYHTRy+H/MDcBk+BcrlY7ltQ="
+          "Value": "sha256-QpWy6uLiIYzkAqF/iMvOp/DiFgfuF038pjNgeBqtsfo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/HospitalSystemBlazor.Service.pdb",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Service.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tejH7LeFUhffUIz4y2X4UvWGB2L4qBTL6eyMjGzUNPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 19:15:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tejH7LeFUhffUIz4y2X4UvWGB2L4qBTL6eyMjGzUNPU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/HospitalSystemBlazor.Service.pdb",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\y56oxia2m1-3uhcaq4sj7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000121966093"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8198"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M7wL8MWOJ4bypua1zYRKaBcYfp0LFXEWZT/hVuC9uZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 19:08:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tejH7LeFUhffUIz4y2X4UvWGB2L4qBTL6eyMjGzUNPU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tejH7LeFUhffUIz4y2X4UvWGB2L4qBTL6eyMjGzUNPU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/HospitalSystemBlazor.Service.pdb.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\y56oxia2m1-3uhcaq4sj7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M7wL8MWOJ4bypua1zYRKaBcYfp0LFXEWZT/hVuC9uZI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 19:08:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M7wL8MWOJ4bypua1zYRKaBcYfp0LFXEWZT/hVuC9uZI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/HospitalSystemBlazor.Service.wasm",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\bin\\Debug\\net8.0\\wwwroot\\_framework\\HospitalSystemBlazor.Service.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3dL70IPoJSTYvSCc+h6Tw51gXnDWbd2Er58/sqKDC08=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 19:15:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3dL70IPoJSTYvSCc+h6Tw51gXnDWbd2Er58/sqKDC08="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/HospitalSystemBlazor.Service.wasm",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\ip1ktt76h1-jsulalmms5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000165700083"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6034"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e1wpi90F1mjdA5l9YkJZz3bv7hw7JNagbwi2g1U0w+4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3dL70IPoJSTYvSCc+h6Tw51gXnDWbd2Er58/sqKDC08=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3dL70IPoJSTYvSCc+h6Tw51gXnDWbd2Er58/sqKDC08="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/HospitalSystemBlazor.Service.wasm.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\ip1ktt76h1-jsulalmms5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e1wpi90F1mjdA5l9YkJZz3bv7hw7JNagbwi2g1U0w+4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e1wpi90F1mjdA5l9YkJZz3bv7hw7JNagbwi2g1U0w+4="
         }
       ]
     },
@@ -12627,7 +12627,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "36060"
+          "Value": "36228"
         },
         {
           "Name": "Content-Type",
@@ -12635,11 +12635,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gDXm0E2ExanuKrKVfMJZVjwWGLfQ2GlioVwwA+kUPJ0=\""
+          "Value": "\"lJO1wtlq601VT6TKIVjL7ppo9IQC1bDgJTsnWZjNy68=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 21:01:54 GMT"
+          "Value": "Mon, 20 Jan 2025 19:15:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12649,18 +12649,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gDXm0E2ExanuKrKVfMJZVjwWGLfQ2GlioVwwA+kUPJ0="
+          "Value": "sha256-lJO1wtlq601VT6TKIVjL7ppo9IQC1bDgJTsnWZjNy68="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Web.pdb",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\qdgyfvbo2h-ch9mlj1692.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\qdgyfvbo2h-4cuklys40t.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000037657692"
+          "Quality": "0.000037545994"
         }
       ],
       "ResponseHeaders": [
@@ -12670,15 +12670,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26554"
+          "Value": "26633"
         },
         {
           "Name": "ETag",
-          "Value": "\"2MQ1/upMM57UaNBPLWm1+B9e/yRkgImVu1Vin9TBeFw=\""
+          "Value": "\"4BWsF15tSgLH89oPEV5eNndEtCIPF4VUqW0ADX9UuRE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 20:41:31 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12698,19 +12698,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"gDXm0E2ExanuKrKVfMJZVjwWGLfQ2GlioVwwA+kUPJ0=\""
+          "Value": "W/\"lJO1wtlq601VT6TKIVjL7ppo9IQC1bDgJTsnWZjNy68=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gDXm0E2ExanuKrKVfMJZVjwWGLfQ2GlioVwwA+kUPJ0="
+          "Value": "sha256-lJO1wtlq601VT6TKIVjL7ppo9IQC1bDgJTsnWZjNy68="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Web.pdb.gz",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\qdgyfvbo2h-ch9mlj1692.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\qdgyfvbo2h-4cuklys40t.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12719,7 +12719,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26554"
+          "Value": "26633"
         },
         {
           "Name": "Content-Type",
@@ -12727,11 +12727,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2MQ1/upMM57UaNBPLWm1+B9e/yRkgImVu1Vin9TBeFw=\""
+          "Value": "\"4BWsF15tSgLH89oPEV5eNndEtCIPF4VUqW0ADX9UuRE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 20:41:31 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12749,7 +12749,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2MQ1/upMM57UaNBPLWm1+B9e/yRkgImVu1Vin9TBeFw="
+          "Value": "sha256-4BWsF15tSgLH89oPEV5eNndEtCIPF4VUqW0ADX9UuRE="
         }
       ]
     },
@@ -12772,11 +12772,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y4aCG0RFVknoNEhcRmM7mqNK4lOA5FRL3NC2/Yl4exg=\""
+          "Value": "\"jNCPjVVKOIGLjteNHMimeE2YTCWrLh5AlFqdMemFRSc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 21:01:54 GMT"
+          "Value": "Mon, 20 Jan 2025 19:15:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12786,18 +12786,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y4aCG0RFVknoNEhcRmM7mqNK4lOA5FRL3NC2/Yl4exg="
+          "Value": "sha256-jNCPjVVKOIGLjteNHMimeE2YTCWrLh5AlFqdMemFRSc="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Web.wasm",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\a2jyy9l7c7-5wze8tv9iz.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\a2jyy9l7c7-kgaa0fsatu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000065505044"
+          "Quality": "0.000065368022"
         }
       ],
       "ResponseHeaders": [
@@ -12807,15 +12807,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15265"
+          "Value": "15297"
         },
         {
           "Name": "ETag",
-          "Value": "\"mFE1Ok+ga3RkQJZ0Xg+rLzmO2PWlTz5OKYGhm3Oh8a0=\""
+          "Value": "\"FJp5+c7BTuok4evPlhIVorwbxakQUlkALe6xpmyhaYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 20:41:31 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12835,19 +12835,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"y4aCG0RFVknoNEhcRmM7mqNK4lOA5FRL3NC2/Yl4exg=\""
+          "Value": "W/\"jNCPjVVKOIGLjteNHMimeE2YTCWrLh5AlFqdMemFRSc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-y4aCG0RFVknoNEhcRmM7mqNK4lOA5FRL3NC2/Yl4exg="
+          "Value": "sha256-jNCPjVVKOIGLjteNHMimeE2YTCWrLh5AlFqdMemFRSc="
         }
       ]
     },
     {
       "Route": "_framework/HospitalSystemBlazor.Web.wasm.gz",
-      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\a2jyy9l7c7-5wze8tv9iz.gz",
+      "AssetFile": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\obj\\Debug\\net8.0\\compressed\\a2jyy9l7c7-kgaa0fsatu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12856,7 +12856,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15265"
+          "Value": "15297"
         },
         {
           "Name": "Content-Type",
@@ -12864,11 +12864,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mFE1Ok+ga3RkQJZ0Xg+rLzmO2PWlTz5OKYGhm3Oh8a0=\""
+          "Value": "\"FJp5+c7BTuok4evPlhIVorwbxakQUlkALe6xpmyhaYQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Jan 2025 20:41:31 GMT"
+          "Value": "Mon, 20 Jan 2025 19:08:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12886,7 +12886,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mFE1Ok+ga3RkQJZ0Xg+rLzmO2PWlTz5OKYGhm3Oh8a0="
+          "Value": "sha256-FJp5+c7BTuok4evPlhIVorwbxakQUlkALe6xpmyhaYQ="
         }
       ]
     },

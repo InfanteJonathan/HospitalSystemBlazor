@@ -52,7 +52,6 @@ namespace HospitalSystemBlazor.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Correo")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("FechaEdicion")
@@ -64,17 +63,16 @@ namespace HospitalSystemBlazor.Data.Migrations
                     b.Property<DateTime?>("FechaRegistro")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("IdEspecialidad")
+                    b.Property<int?>("IdEspecialidad")
                         .HasColumnType("int");
 
                     b.Property<int>("IdUsuario")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Telefono")
+                    b.Property<int?>("Telefono")
                         .HasColumnType("int");
 
                     b.HasKey("IdDoctor");
@@ -173,7 +171,6 @@ namespace HospitalSystemBlazor.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("Apellido")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Direccion")
@@ -185,7 +182,7 @@ namespace HospitalSystemBlazor.Data.Migrations
                     b.Property<DateTime?>("FechaEliminacion")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("FechaNacimiento")
+                    b.Property<DateTime?>("FechaNacimiento")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("FechaRegistro")
@@ -195,14 +192,12 @@ namespace HospitalSystemBlazor.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("NumContacto")
                         .HasColumnType("int");
 
                     b.Property<string>("Sexo")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("IdPaciente");
@@ -280,9 +275,7 @@ namespace HospitalSystemBlazor.Data.Migrations
                 {
                     b.HasOne("HospitalSystemBlazor.Entities.Models.Especialidad", "Especialidad")
                         .WithMany("Doctores")
-                        .HasForeignKey("IdEspecialidad")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("IdEspecialidad");
 
                     b.HasOne("HospitalSystemBlazor.Entities.Models.Usuario", "Usuario")
                         .WithOne("Doctor")

@@ -4,7 +4,8 @@
 
 
 <PageTitle>Nueva</PageTitle>
-
+<h3>Crear</h3>
+<br />
 <EditForm Model="Especialidad"  OnValidSubmit="@Registrar">
     <div>
         <label>Nombre</label>
@@ -19,13 +20,13 @@
         <input type="number" @bind="Especialidad.Precio" />
     </div>
     <div>
-        <label>Activo: <input type="checkbox" @bind="Especialidad.Activo" /></label>
+        <label>Activo: <input type="checkbox" @bind="Especialidad.Activo"  /></label>
     </div>
     <button type="submit" class="btn btn-success">Registrar</button>
     <button @onclick='() => _navigate.NavigateTo("/listaEspec")' class="btn btn-secondary">Atras</button>
 </EditForm>
 
-<h3>Crear</h3>
+
 
 @code {
     EspecialidadDTO Especialidad = new();

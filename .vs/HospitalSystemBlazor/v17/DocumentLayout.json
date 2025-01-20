@@ -1,85 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{73713204-F884-4677-B160-3595E0D043B4}|HospitalSystemBlazor.Web\\HospitalSystemBlazor.Web.csproj|d:\\csharp projects\\hospitalsystemblazor\\hospitalsystemblazor.web\\pages\\especialidad\\crear.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73713204-F884-4677-B160-3595E0D043B4}|HospitalSystemBlazor.Web\\HospitalSystemBlazor.Web.csproj|solutionrelative:hospitalsystemblazor.web\\pages\\especialidad\\crear.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73713204-F884-4677-B160-3595E0D043B4}|HospitalSystemBlazor.Web\\HospitalSystemBlazor.Web.csproj|d:\\csharp projects\\hospitalsystemblazor\\hospitalsystemblazor.web\\pages\\especialidad\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73713204-F884-4677-B160-3595E0D043B4}|HospitalSystemBlazor.Web\\HospitalSystemBlazor.Web.csproj|solutionrelative:hospitalsystemblazor.web\\pages\\especialidad\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D43B30F-2122-4837-ADE9-0758FDC869B7}|HospitalSystemBlazor.API\\HospitalSystemBlazor.API.csproj|d:\\csharp projects\\hospitalsystemblazor\\hospitalsystemblazor.api\\controllers\\especialidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D43B30F-2122-4837-ADE9-0758FDC869B7}|HospitalSystemBlazor.API\\HospitalSystemBlazor.API.csproj|solutionrelative:hospitalsystemblazor.api\\controllers\\especialidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73713204-F884-4677-B160-3595E0D043B4}|HospitalSystemBlazor.Web\\HospitalSystemBlazor.Web.csproj|d:\\csharp projects\\hospitalsystemblazor\\hospitalsystemblazor.web\\pages\\especialidad\\detalle.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{73713204-F884-4677-B160-3595E0D043B4}|HospitalSystemBlazor.Web\\HospitalSystemBlazor.Web.csproj|solutionrelative:hospitalsystemblazor.web\\pages\\especialidad\\detalle.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Crear.razor",
-              "DocumentMoniker": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\Pages\\Especialidad\\Crear.razor",
-              "RelativeDocumentMoniker": "HospitalSystemBlazor.Web\\Pages\\Especialidad\\Crear.razor",
-              "ToolTip": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\Pages\\Especialidad\\Crear.razor",
-              "RelativeToolTip": "HospitalSystemBlazor.Web\\Pages\\Especialidad\\Crear.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-19T19:06:56.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EspecialidadesController.cs",
-              "DocumentMoniker": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.API\\Controllers\\EspecialidadesController.cs",
-              "RelativeDocumentMoniker": "HospitalSystemBlazor.API\\Controllers\\EspecialidadesController.cs",
-              "ToolTip": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.API\\Controllers\\EspecialidadesController.cs",
-              "RelativeToolTip": "HospitalSystemBlazor.API\\Controllers\\EspecialidadesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-19T14:09:14.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Detalle.razor",
-              "DocumentMoniker": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\Pages\\Especialidad\\Detalle.razor",
-              "RelativeDocumentMoniker": "HospitalSystemBlazor.Web\\Pages\\Especialidad\\Detalle.razor",
-              "ToolTip": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\Pages\\Especialidad\\Detalle.razor",
-              "RelativeToolTip": "HospitalSystemBlazor.Web\\Pages\\Especialidad\\Detalle.razor",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAD8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-19T16:49:37.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.razor",
-              "DocumentMoniker": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\Pages\\Especialidad\\Index.razor",
-              "RelativeDocumentMoniker": "HospitalSystemBlazor.Web\\Pages\\Especialidad\\Index.razor",
-              "ToolTip": "D:\\CSHARP PROJECTS\\HospitalSystemBlazor\\HospitalSystemBlazor.Web\\Pages\\Especialidad\\Index.razor",
-              "RelativeToolTip": "HospitalSystemBlazor.Web\\Pages\\Especialidad\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-18T19:52:19.669Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

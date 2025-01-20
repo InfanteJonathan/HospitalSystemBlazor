@@ -15,3 +15,4 @@ D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor\obj\Debug\net8.0\Ho
 D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor\obj\Debug\net8.0\refint\HospitalSystemBlazor.Service.dll
 D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor\obj\Debug\net8.0\HospitalSystemBlazor.Service.pdb
 D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor\obj\Debug\net8.0\ref\HospitalSystemBlazor.Service.dll
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor\obj\Debug\net8.0\HospitalSystemBlazor.Service.sourcelink.json

@@ -151,3 +151,4 @@ D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.API\obj\Debug\net8.
 D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.API\obj\Debug\net8.0\HospitalSystemBlazor.API.pdb
 D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.API\obj\Debug\net8.0\HospitalSystemBlazor.API.genruntimeconfig.cache
 D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.API\obj\Debug\net8.0\ref\HospitalSystemBlazor.API.dll
+D:\CSHARP PROJECTS\HospitalSystemBlazor\HospitalSystemBlazor.API\obj\Debug\net8.0\HospitalSystemBlazor.API.sourcelink.json
