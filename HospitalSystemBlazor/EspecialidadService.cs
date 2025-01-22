@@ -15,7 +15,7 @@ namespace HospitalSystemBlazor.Service
             _context = context;
         }
 
-        public async Task<Result<List<EspecialidadDTO>>> ListaEspecialidades()
+        public async Task<Result<List<EspecialidadDTO>>> Listas()
         {
             List<EspecialidadDTO> lista = await _context.Especialidades
                 .Where(x => x.Activo)

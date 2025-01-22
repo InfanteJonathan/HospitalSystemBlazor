@@ -20,7 +20,7 @@ namespace HospitalSystemBlazor.API.Controllers
         [HttpGet]
         public async Task<ActionResult<List<EspecialidadDTO>>> Index()
         {
-            var result = await _service.ListaEspecialidades();
+            var result = await _service.Listas();
 
             if (!result.isSucces)
             {
