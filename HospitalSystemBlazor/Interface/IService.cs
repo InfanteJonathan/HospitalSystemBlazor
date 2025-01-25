@@ -5,10 +5,10 @@ namespace HospitalSystemBlazor.Service.Interface
 {
     public interface IService <T> where T: class
     {
-        public Result<List<T>> Listas();
-        Result<T> Detalles(int id);
-        Result<string> Crear(T model);
-        Result<string> Editar(int id, T model);
-        Result<string> Eliminar(int id);
+        public Task<Result<List<T>>> Listas();
+        public Task<Result<T>> Detalles(int id);
+        public Task<Result<string>> Crear(T model);
+        public Task<Result<string>> Editar(int id, T model);
+        public Task<Result<string>> Eliminar(int id);
     }
 }

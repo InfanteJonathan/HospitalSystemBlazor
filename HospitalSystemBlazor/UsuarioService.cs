@@ -63,6 +63,14 @@ namespace HospitalSystemBlazor.Service
             return Result<UsuarioDto>.Failure("Error, no se encontro el usuario");
         }
 
+        private string HashPassword(string model)
+        {
+            var hashedPassword = new PasswordHasher<Usuario>()
+                .HashPassword(user, model);
+
+            return hashedPassword;
+        }
+
         public async Task<Result<string>> Crear(UsuarioDto model)
         {
             if(string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Contraseña))
@@ -70,14 +78,13 @@ namespace HospitalSystemBlazor.Service
                 return Result<string>.Failure("Error");
             }
 
-            var hashedPassword = new PasswordHasher<Usuario>()
-                .HashPassword(user, model.Contraseña);
+            
 
             var paciente = new Paciente();
 
             var nuevoUsuario = new Usuario();
             nuevoUsuario.Email = model.Email;
-            nuevoUsuario.Contraseña = hashedPassword;
+            nuevoUsuario.Contraseña = HashPassword(model.Contraseña);
             nuevoUsuario.IdRol = 3;
             nuevoUsuario.Activo = true;
             nuevoUsuario.FechaRegistro = DateTime.Now;
@@ -86,6 +93,7 @@ namespace HospitalSystemBlazor.Service
             if(nuevoUsuario != null)
             {
                 _context.Usuarios.Add(nuevoUsuario);
+                await _context.SaveChangesAsync();
 
                 paciente.IdUsuario = nuevoUsuario.IdUsuario;
                 paciente.Activo = true;
@@ -159,7 +167,7 @@ namespace HospitalSystemBlazor.Service
             {
                 buscarUsuario.Email = model.Email;
                 buscarUsuario.Contraseña = model.Contraseña;
-                buscarUsuario.Activo = model.Activo;
+                buscarUsuario.Activo = model.Activo?? true;
 
                 _context.Usuarios.Add(buscarUsuario);
                 await _context.SaveChangesAsync();

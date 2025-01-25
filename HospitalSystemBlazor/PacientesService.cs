@@ -3,11 +3,6 @@ using HospitalSystemBlazor.Entities.DTOs;
 using HospitalSystemBlazor.Entities.Models;
 using HospitalSystemBlazor.Service.Interface;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HospitalSystemBlazor.Service
 {
@@ -19,9 +14,9 @@ namespace HospitalSystemBlazor.Service
         {
             _contex = contex;
         }
-        public Result<List<DetalleGeneralPaciente>> Listas()
+        public async Task<Result<List<DetalleGeneralPaciente>>> Listas()
         {
-            var lista = _contex.Pacientes
+            var lista = await _contex.Pacientes
                 .Where(p => p.Activo == true)
                 .Select(p => new DetalleGeneralPaciente
                 {
@@ -34,7 +29,7 @@ namespace HospitalSystemBlazor.Service
                     Direccion = p.Direccion,
                     NumContacto = p.NumContacto
                 })
-                .ToList();
+                .ToListAsync();
 
             if(lista.Count == 0)
             {
@@ -43,9 +38,9 @@ namespace HospitalSystemBlazor.Service
 
             return Result<List<DetalleGeneralPaciente>>.Succes(lista);
         }
-        public Result<DetalleGeneralPaciente> Detalles(int id)
+        public async Task<Result<DetalleGeneralPaciente>> Detalles(int id)
         {
-            var buscarPaciente = _contex.Pacientes
+            var buscarPaciente = await _contex.Pacientes
                 .Where(p => p.IdPaciente == id)
                 .Select(p => new DetalleGeneralPaciente
                 {
@@ -59,7 +54,7 @@ namespace HospitalSystemBlazor.Service
                     Direccion = p.Direccion,
                     NumContacto = p.NumContacto
                 })
-                .FirstOrDefault();
+                .FirstOrDefaultAsync();
 
             if(buscarPaciente == null)
             {
@@ -69,17 +64,17 @@ namespace HospitalSystemBlazor.Service
             return Result<DetalleGeneralPaciente>.Succes(buscarPaciente);
         }
 
-        public Result<string> Crear(DetalleGeneralPaciente model)
+        public Task<Result<string>> Crear(DetalleGeneralPaciente model)
         {
             throw new NotImplementedException();
         }
 
 
-        public Result<string> Editar(int id, DetalleGeneralPaciente model)
+        public async Task<Result<string>> Editar(int id, DetalleGeneralPaciente model)
         {
-            var buscarPaciente = _contex.Pacientes
+            var buscarPaciente = await _contex.Pacientes
                 .Where(p => p.IdPaciente == id)
-                .FirstOrDefault();
+                .FirstOrDefaultAsync();
 
             if (buscarPaciente == null)
             {
@@ -99,13 +94,13 @@ namespace HospitalSystemBlazor.Service
                 return Result<string>.Failure("Error, no se pudo editar el paciente");
             }
 
-            _contex.SaveChanges();
+            await _contex.SaveChangesAsync();
 
             return Result<string>.Succes("Paciente editado correctamente");
 
         }
 
-        public Result<string> Eliminar(int id)
+        public Task<Result<string>> Eliminar(int id)
         {
             throw new NotImplementedException();
         }

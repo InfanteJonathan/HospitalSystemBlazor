@@ -7,23 +7,29 @@
 <h3>Crear</h3>
 <br />
 <EditForm Model="Especialidad"  OnValidSubmit="@Registrar">
-    <div>
-        <label>Nombre</label>
-        <input type="text" @bind="Especialidad.Nombre" />
+    <DataAnnotationsValidator/>
+    <div class="form-control" style="width:400px">
+        <div>
+            <label>Nombre</label>
+            <InputText id="nombre" class="form-control" @bind-Value="Especialidad.Nombre" />
+            <ValidationMessage For="@(() => Especialidad.Nombre)" />
+        </div>
+        <div>
+            <label>Descripcion</label>
+            <InputText id="nombre" class="form-control" @bind-Value="Especialidad.Descripcion" />
+            <ValidationMessage For="@(() => Especialidad.Descripcion)" />
+        </div>
+        <div>
+            <label>Precio</label>
+            <InputNumber id="nombre" class="form-control" @bind-Value="Especialidad.Precio" />
+            <ValidationMessage For="@(() => Especialidad.Precio)" />
+        </div>
+        <div>
+            <label>Activo: <InputCheckbox class="form-control" @bind-Value="Especialidad.Activo" /></label>
+        </div>
+        <button type="submit" class="btn btn-success">Registrar</button>
+        <button @onclick='() => _navigate.NavigateTo("/listaEspec")' class="btn btn-secondary">Atras</button>
     </div>
-    <div>
-        <label>Descripcion</label>
-        <input type="text" @bind="Especialidad.Descripcion" />
-    </div>
-    <div>
-        <label>Precio</label>
-        <input type="number" @bind="Especialidad.Precio" />
-    </div>
-    <div>
-        <label>Activo: <input type="checkbox" @bind="Especialidad.Activo"  /></label>
-    </div>
-    <button type="submit" class="btn btn-success">Registrar</button>
-    <button @onclick='() => _navigate.NavigateTo("/listaEspec")' class="btn btn-secondary">Atras</button>
 </EditForm>
 
 

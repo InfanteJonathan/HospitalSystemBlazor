@@ -11,10 +11,10 @@ namespace HospitalSystemBlazor.Entities.Models
         public string? Nombre { get; set; }
         public int? IdEspecialidad { get; set; }
 
-        [Range(1,9,ErrorMessage ="Error al ingresar el telefono")]
+        [Range(1,9)]
         public int? Telefono { get; set; }
 
-        [EmailAddress(ErrorMessage ="Ingrese un email correcto")]
+        [EmailAddress]
         public string? Correo { get; set; }
 
         [ForeignKey("IdUsuario")]

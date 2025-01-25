@@ -12,12 +12,13 @@ namespace HospitalSystemBlazor.Entities.DTOs
         public int IdDoctor { get; set; }
         public int IdUsuario { get; set; }
         public string? Nombre { get; set; }
-        public int? IdEspecialidad { get; set; }
+        public string? IdEspecialidad { get; set; }
 
         [Range(1, 9, ErrorMessage = "Error al ingresar el telefono")]
         public int? Telefono { get; set; }
 
         [EmailAddress(ErrorMessage = "Ingrese un email correcto")]
         public string? Correo { get; set; }
+        public bool Activo { get; set; }
     }
 }

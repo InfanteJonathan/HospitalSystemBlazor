@@ -8,10 +8,16 @@ namespace HospitalSystemBlazor.Entities.DTOs
 {
     public class UsuarioDto
     {
-        public int IdUsuario { get; set; }
+        public int? IdUsuario { get; set; }
         public string Email { get; set; }
         public string Contraseña { get; set; }
-        public string IdRol { get; set; }
-        public bool Activo { get; set; }
+        public string? IdRol { get; set; }
+        public bool? Activo { get; set; }
+    }
+
+    public class LoginUser
+    {
+        public string Email { get; set; }
+        public string Password { get; set; }
     }
 }

@@ -11,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<IService<EspecialidadDTO>, EspecialidadService>();
+builder.Services.AddScoped<IService<UsuarioDto>, UsuarioService>();
+builder.Services.AddScoped<AuthService>();
 
 builder.Services.AddDbContext<DataContext>(options =>
 {
@@ -26,8 +28,7 @@ builder.Services.AddCors(options =>
                           .AllowAnyHeader());
 });
 
-
-
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -39,10 +40,24 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseRouting();
+
+app.Use(async (context, next) =>
+{
+    Console.WriteLine("Headers recibidos:");
+    foreach (var header in context.Request.Headers)
+    {
+        Console.WriteLine($"{header.Key}: {header.Value}");
+    }
+    await next.Invoke();
+});
+
 app.UseCors("AllowSpecificOrigin");
 
 app.UseHttpsRedirection();
 
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
