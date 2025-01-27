@@ -11,12 +11,11 @@ namespace HospitalSystemBlazor.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly AuthService _service;
-        private readonly IService<UsuarioDto> _userService;
 
-        public AuthController(AuthService service, IService<UsuarioDto> userService)
+
+        public AuthController(AuthService service)
         {
             _service = service;
-            _userService = userService;
         }
 
         [HttpPost("login")]
@@ -32,16 +31,6 @@ namespace HospitalSystemBlazor.API.Controllers
             return Ok(new { result.isSucces, message = result.Value });
         }
 
-        [HttpPost("createPaciente")]
-        public async Task<IActionResult> Crear(UsuarioDto user)
-        {
-            var result = await _userService.Crear(user);
-
-            if (!result.isSucces)
-            {
-                return BadRequest(new { message = result.Error });
-            }
-            return Ok(new { result.isSucces, message = result.Value });
-        }
+        
     }
 }
