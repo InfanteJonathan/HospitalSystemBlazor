@@ -4,11 +4,11 @@ using System.Net.Http.Json;
 
 namespace HospitalSystemBlazor.Web.Services
 {
-    public class EspecialidadService
+    public class EspecialidadServ
     {
         private readonly HttpClient _http;
 
-        public EspecialidadService(HttpClient http)
+        public EspecialidadServ(HttpClient http)
         {
             _http = http;
         }

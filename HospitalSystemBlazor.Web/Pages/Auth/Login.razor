@@ -1,0 +1,74 @@
+﻿@page "/login"
+@inject AuthServ _authSer
+@inject NavigationManager _navigate
+
+
+<PageTitle>INICIAR SESION</PageTitle>
+<h3>INICIAR SESION</h3>
+<br />
+<EditForm Model="user" OnValidSubmit="IniciarSesion">
+    <DataAnnotationsValidator/>
+    <div class="form-control" style="width:400px">
+        <div>
+            <label>Email</label>
+            <InputText id="nombre" class="form-control" @bind-Value="user.Email" />
+            <ValidationMessage For="@(() => user.Email)" />
+        </div>
+        <div>
+            <label>Contraseña</label>
+            <InputText id="nombre" class="form-control" @bind-Value="user.Password" />
+            <ValidationMessage For="@(() => user.Password)" />
+        </div>
+        <button type="submit" class="btn btn-success">Ingresar</button>
+        <button @onclick='() => _navigate.NavigateTo("/listaEspec")' class="btn btn-secondary">Regresar</button>
+    </div>
+</EditForm>
+@if (!string.IsNullOrEmpty(mensaje))
+{
+    <div class="alert @(exito ? "alert-success" : "alert-danger")" role="alert">
+        @mensaje
+    </div>
+}
+
+@code {
+    LoginUser user = new();
+    string mensaje = string.Empty;
+    bool exito = false;
+
+
+    async Task IniciarSesion()
+    {
+        var response = await _authSer.IniciarSesion(user);
+
+        try
+        {
+            if (response.isSucces)
+            {
+                mensaje = "Inicio de sesión exitoso";
+                exito = response.isSucces;
+
+                // Llamar a GetHeaders para probar si el token se está usando correctamente
+                var headersResponse = await _authSer.GetHeaders();
+                if (headersResponse.Exito)
+                {
+                    mensaje += " " + headersResponse.Mensaje;
+                }
+                else
+                {
+                    mensaje += " No se pudieron obtener los headers.";
+                }
+            }
+            else
+            {
+                mensaje = "No se pudo iniciar sesión.";
+                exito = false;
+            }
+        }
+        catch (Exception ex)
+        {
+            mensaje = $"Error: {ex.Message}";
+            exito = false;
+        }
+    }
+    
+}

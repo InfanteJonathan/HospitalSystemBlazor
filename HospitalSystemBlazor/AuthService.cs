@@ -1,7 +1,6 @@
 ﻿using HospitalSystemBlazor.Data;
 using HospitalSystemBlazor.Entities.DTOs;
 using HospitalSystemBlazor.Entities.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -15,42 +14,33 @@ namespace HospitalSystemBlazor.Service
     {
         private readonly DataContext _context;
         public static Usuario user;
-        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public AuthService(DataContext context, IHttpContextAccessor httpContextAccessor)
+        public AuthService(DataContext context)
         {
             _context = context;
-            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<Result<string>> LoginUser(LoginUser model)
         {
             var usuario = await _context.Usuarios
-                .FirstAsync(u => u.Email.Equals(model.Email));
+                .FirstOrDefaultAsync(u => u.Email.Equals(model.Email));
 
             if (usuario == null)
             {
                 return Result<string>.Failure("Email Incorrecto!");
             }
 
-            if (usuario.Contraseña.Equals(HashPassword(model.Password)))
+            var passwordHasher = new PasswordHasher<Usuario>();
+            var verificationResult = passwordHasher.VerifyHashedPassword(usuario, usuario.Contraseña, model.Password);
+
+            if (verificationResult == PasswordVerificationResult.Failed)
             {
                 return Result<string>.Failure("Contraseña Incorrecta");
             }
 
-            var (userid, email) = ObtenerHeaders();
-
-            string token = CreateToken(usuario);
+            var token = CreateToken(usuario);
+            Console.WriteLine(token);
             return Result<string>.Succes(token);
-        }
-
-
-        private string HashPassword(string model)
-        {
-            var hashedPassword = new PasswordHasher<Usuario>()
-                .HashPassword(user, model);
-
-            return hashedPassword;
         }
 
         private string CreateToken(Usuario user)
@@ -62,9 +52,9 @@ namespace HospitalSystemBlazor.Service
             };
 
             var handler = new JwtSecurityTokenHandler();
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YhT7y!mL9g$y5rD3qNpX9wA@tK6vZ4h*F8uJ2pL1xC7bV9kQ3nR6tM5wU8oP2y"));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MiClaveDeSeguridadEsLaMejorYmasSeguraDelMundoPorFavorEvitarUsarla"));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            
+
             var tokenDescriptor = new JwtSecurityToken
             (
                 issuer: "SUPERKEYCLAVESSS",
@@ -75,22 +65,7 @@ namespace HospitalSystemBlazor.Service
             );
 
             return handler.WriteToken(tokenDescriptor);
-
         }
 
-        public (string? UserId, string? Email) ObtenerHeaders()
-        {
-            var userid = _httpContextAccessor.HttpContext.Request.Headers["UserId"].ToString();
-            var email = _httpContextAccessor.HttpContext.Request.Headers["Email"].ToString();
-
-
-
-            if (string.IsNullOrEmpty(userid) || string.IsNullOrEmpty(email))
-            {
-                throw new Exception("No se encontraron los headers");
-            }
-
-            return (userid, email);
-        }
     }
 }

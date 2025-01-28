@@ -1,5 +1,5 @@
 ﻿@page "/crear"
-@inject EspecialidadService _service
+@inject EspecialidadServ _service
 @inject NavigationManager _navigate
 
 
@@ -25,7 +25,8 @@
             <ValidationMessage For="@(() => Especialidad.Precio)" />
         </div>
         <div>
-            <label>Activo: <InputCheckbox class="form-control" @bind-Value="Especialidad.Activo" /></label>
+            <label>Activo </label><InputCheckbox class="form-check" @bind-Value="Especialidad.Activo" />
+
         </div>
         <button type="submit" class="btn btn-success">Registrar</button>
         <button @onclick='() => _navigate.NavigateTo("/listaEspec")' class="btn btn-secondary">Atras</button>

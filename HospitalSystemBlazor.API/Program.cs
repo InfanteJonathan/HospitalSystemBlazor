@@ -2,7 +2,10 @@ using HospitalSystemBlazor.Data;
 using HospitalSystemBlazor.Entities.DTOs;
 using HospitalSystemBlazor.Service;
 using HospitalSystemBlazor.Service.Interface;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +31,28 @@ builder.Services.AddCors(options =>
                           .AllowAnyHeader());
 });
 
+
+builder.Services.AddAuthentication(opt =>
+{
+    opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+    .AddJwtBearer(opt =>
+    {
+        opt.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MiClaveDeSeguridadEsLaMejorYmasSeguraDelMundoPorFavorEvitarUsarla")),
+            ValidateIssuer = true,
+            ValidIssuer = "SUPERKEYCLAVESSS",
+            ValidateAudience = true,
+            ValidAudience = "SUPERKEYCLAVESSS",
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero
+        };
+    });
+
+
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -42,20 +67,10 @@ if (app.Environment.IsDevelopment())
 }
 app.UseRouting();
 
-app.Use(async (context, next) =>
-{
-    Console.WriteLine("Headers recibidos:");
-    foreach (var header in context.Request.Headers)
-    {
-        Console.WriteLine($"{header.Key}: {header.Value}");
-    }
-    await next.Invoke();
-});
 
 app.UseCors("AllowSpecificOrigin");
 
 app.UseHttpsRedirection();
-
 
 app.UseAuthentication();
 app.UseAuthorization();

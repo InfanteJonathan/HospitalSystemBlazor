@@ -1,6 +1,7 @@
 ﻿@page "/listaEspec"
-@inject EspecialidadService _service
+@inject EspecialidadServ _service
 @inject NavigationManager _navigate
+@inject AuthServ _authservice
 
 
 <PageTitle>ESPECIALIDADES</PageTitle>
@@ -53,6 +54,8 @@ else{
     async Task ListaEspec()
     {
         espec = await _service.Especialidades();
+        var data = await _authservice.GetHeaders();
+        var mensajeHeader = data.Mensaje;
     }
 
     protected override async Task OnInitializedAsync()
