@@ -54,8 +54,6 @@ else{
     async Task ListaEspec()
     {
         espec = await _service.Especialidades();
-        var data = await _authservice.GetHeaders();
-        var mensajeHeader = data.Mensaje;
     }
 
     protected override async Task OnInitializedAsync()

@@ -3,8 +3,10 @@ using HospitalSystemBlazor.Entities.DTOs;
 using HospitalSystemBlazor.Service;
 using HospitalSystemBlazor.Service.Interface;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -48,9 +50,20 @@ builder.Services.AddAuthentication(opt =>
             ValidateAudience = true,
             ValidAudience = "SUPERKEYCLAVESSS",
             ValidateLifetime = true,
-            ClockSkew = TimeSpan.Zero
+            ClockSkew = TimeSpan.Zero,
+            RoleClaimType = ClaimTypes.Role
         };
+
+        
     });
+
+
+builder.Services.AddAuthorization(opt =>
+{
+    opt.AddPolicy("Administrador", policy => policy.RequireRole("Administrador"));
+    opt.AddPolicy("Trabajador", policy => policy.RequireRole("Trabajador"));
+    opt.AddPolicy("Paciente", policy => policy.RequireRole("Paciente"));
+});
 
 
 builder.Services.AddHttpContextAccessor();

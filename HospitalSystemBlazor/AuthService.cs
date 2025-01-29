@@ -45,10 +45,21 @@ namespace HospitalSystemBlazor.Service
 
         private string CreateToken(Usuario user)
         {
+            var buscarNombreRol = _context.Roles
+                .Where(r => r.IdRol == user.IdRol)
+                .Select(r => r.Nombre)
+                .First();
+
+            if(buscarNombreRol == null)
+            {
+                return null;
+            }
+
             var claims = new List<Claim>
             {
                 new Claim("UserId", user.IdUsuario.ToString()),
-                new Claim("Email", user.Email)
+                new Claim("Email", user.Email),
+                new Claim(ClaimTypes.Role , buscarNombreRol)
             };
 
             var handler = new JwtSecurityTokenHandler();
@@ -60,7 +71,7 @@ namespace HospitalSystemBlazor.Service
                 issuer: "SUPERKEYCLAVESSS",
                 audience: "SUPERKEYCLAVESSS",
                 claims: claims,
-                expires: DateTime.UtcNow.AddDays(1),
+                expires: DateTime.UtcNow.AddHours(5),
                 signingCredentials: creds
             );
 

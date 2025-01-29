@@ -3,6 +3,7 @@ using HospitalSystemBlazor.Service;
 using HospitalSystemBlazor.Entities.DTOs;
 using HospitalSystemBlazor.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace HospitalSystemBlazor.API.Controllers
 {
@@ -41,13 +42,14 @@ namespace HospitalSystemBlazor.API.Controllers
         {
             var userId = User.FindFirst("UserId")?.Value;
             var email = User.FindFirst("Email")?.Value;
+            var role = User.FindFirst(ClaimTypes.Role)?.Value;
 
-            if (userId == null || email == null)
+            if (userId == null || email == null || role == null)
             {
                 return Unauthorized("Usuario no autenticado o token inválido.");
             }
 
-            return Ok($"Datos seguros para el usuario: {userId}, Email: {email}");
+            return Ok($"Datos seguros para el usuario: {userId}, Email: {email}, Rol: {role} ");
         }
 
             //[HttpGet("headers")]
