@@ -47,16 +47,13 @@
                 mensaje = "Inicio de sesión exitoso";
                 exito = response.isSucces;
 
-                // Llamar a GetHeaders para probar si el token se está usando correctamente
-                var headersResponse = await _authSer.GetHeaders();
-                if (headersResponse.Exito)
-                {
-                    mensaje += " " + headersResponse.Mensaje;
-                }
-                else
-                {
-                    mensaje += " No se pudieron obtener los headers.";
-                }
+                //customProvider.MarkUserAsAuthenticated(response.message);
+
+                // await _localStorage.SetItemAsync("token", response.message);
+                // ((CustomAuthenticationStateProvider)_authStateProvider).MarkUserAsAuthenticated(response.message);
+
+                _navigate.NavigateTo("/");
+
             }
             else
             {

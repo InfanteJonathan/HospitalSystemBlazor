@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalSystemBlazor.Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalSystemBlazor.Web", "HospitalSystemBlazor.Web\HospitalSystemBlazor.Web.csproj", "{73713204-F884-4677-B160-3595E0D043B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{52E511FB-28D4-44A7-A3FF-2C487501DB98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{73713204-F884-4677-B160-3595E0D043B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73713204-F884-4677-B160-3595E0D043B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73713204-F884-4677-B160-3595E0D043B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E511FB-28D4-44A7-A3FF-2C487501DB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E511FB-28D4-44A7-A3FF-2C487501DB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E511FB-28D4-44A7-A3FF-2C487501DB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E511FB-28D4-44A7-A3FF-2C487501DB98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
